@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Text.Json.Serialization;
 
 namespace BusinessObjects.Entities
 {
@@ -14,6 +15,7 @@ namespace BusinessObjects.Entities
         public int CategoryId { get; set; }
         [Required, StringLength(15)]
         public string CategoryName { get; set; }
+        [JsonIgnore]
         public virtual ICollection<Product> Products { get; set; }
 
     }

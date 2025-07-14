@@ -11,12 +11,19 @@ namespace Repositories.Repositories.Implement
 {
     public class ProductRepository : IProductRepository
     {
-        public void DeleteProduct(Product product) => ProductDAO.DeleteProduct(product);
-        public void SaveProduct(Product product) => ProductDAO.SaveProduct(product);    
-        public void UpdateProduct(Product product) => ProductDAO.UpdateProduct(product);
-        public List<Product> GetAllProducts() => ProductDAO.GetProducts();
-        public List<Category> GetAllCategories() => CategoryDAO.GetCategories();
-        public Product GetProductById(int productId) => ProductDAO.FindProductById(productId);
+        private readonly ProductDAO _productDao;
 
+        public ProductRepository(ProductDAO productDao)
+        {
+            _productDao = productDao;
+        }
+
+        public void DeleteProduct(Product product) => _productDao.DeleteProduct(product);
+        public void SaveProduct(Product product) => _productDao.SaveProduct(product);
+        public void UpdateProduct(Product product) => _productDao.UpdateProduct(product);
+        public List<Product> GetAllProducts() => _productDao.GetProducts();
+        public Product GetProductById(int productId) => _productDao.FindProductById(productId);
+        public List<Category> GetAllCategories() => new List<Category>(); // tạm bỏ nếu chưa cần
     }
+
 }
