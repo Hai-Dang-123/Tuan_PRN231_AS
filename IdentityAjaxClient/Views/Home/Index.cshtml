@@ -1,4 +1,6 @@
-﻿@{
+﻿@model List<BusinessObjects.Entities.Product>
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -22,6 +24,12 @@
             <!-- Rows sẽ được populate bởi JavaScript -->
         </tbody>
     </table>
+
+    <div class="mb-3">
+        <a asp-controller="Product" asp-action="CreateProduct" class="btn btn-primary">➕ Create Product</a>
+
+    </div>
+
 </div>
 
 <script type="text/javascript">

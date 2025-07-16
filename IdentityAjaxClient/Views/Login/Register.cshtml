@@ -1,0 +1,57 @@
+﻿@{
+    ViewData["Title"] = "Register";
+}
+
+<h2>Register</h2>
+<form id="registerForm">
+    <div>
+        <label>Email:</label>
+        <input type="email" id="email" name="email" required />
+    </div>
+    <div>
+        <label>Password:</label>
+        <input type="password" id="password" name="password" required />
+    </div>
+    <div>
+        <label>Account Name:</label>
+        <input type="text" id="accountName" name="accountName" required />
+    </div>
+    <div>
+        <label>Role ID:</label>
+        <input type="number" id="roleId" name="roleId" required value="2" />
+    </div>
+    <button type="submit">Register</button>
+</form>
+
+<div id="result" style="margin-top:10px; color:red;"></div>
+
+@section Scripts {
+    <script>
+        document.getElementById('registerForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+            const accountName = document.getElementById('accountName').value;
+            const roleId = parseInt(document.getElementById('roleId').value);
+
+            const response = await fetch('http://localhost:5071/api/login/register', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ email, password, accountName, roleId })
+            });
+
+            const resultDiv = document.getElementById('result');
+            if (response.ok) {
+                const msg = await response.text();
+                resultDiv.style.color = "green";
+                resultDiv.textContent = msg;
+                this.reset();
+            } else {
+                const error = await response.text();
+                resultDiv.style.color = "red";
+                resultDiv.textContent = error || "Đăng ký thất bại!";
+            }
+        });
+    </script>
+}

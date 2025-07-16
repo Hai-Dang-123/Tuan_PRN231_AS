@@ -1,8 +1,7 @@
-﻿@page
-
-@{
+﻿@{
     ViewData["Title"] = "Login";
 }
+
 
 <h2>Login</h2>
 <form id="loginForm">
@@ -15,6 +14,8 @@
         <input type="password" id="password" name="password" required />
     </div>
     <button type="submit">Login</button>
+
+    <button type="button" id="goToRegisterBtn">Đăng ký tài khoản</button>
 </form>
 <div id="result" style="color:red;margin-top:10px;"></div>
 
@@ -25,24 +26,39 @@
             const email = document.getElementById('email').value;
             const password = document.getElementById('password').value;
 
-            const response = await fetch('/api/login', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ email, password })
-            });
+                   const response = await fetch('http://localhost:5071/api/login/login', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email, password })
+        });
+
 
             const resultDiv = document.getElementById('result');
             if (response.ok) {
                 const data = await response.json();
                 resultDiv.style.color = "green";
                 resultDiv.textContent = "Đăng nhập thành công! Xin chào " + data.accountName;
-                // Có thể redirect hoặc lưu token ở đây nếu cần
+
+                // 👉 Redirect sau 1s
+                setTimeout(() => {
+                    window.location.href = '/Home/Index';
+                }, 1000);
             } else {
                 const error = await response.text();
                 resultDiv.style.color = "red";
                 resultDiv.textContent = error || "Đăng nhập thất bại!";
             }
         });
+
+                document.getElementById('goToRegisterBtn').addEventListener('click', function () {
+            window.location.href = '/Login/Register';
+        });
+
+
     </script>
+
+
+
+
 }
 

@@ -16,6 +16,8 @@ builder.Services.AddCors(options =>
 });
 builder.Services.AddScoped<ProductDAO>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<LoginDAO>();
+builder.Services.AddScoped<ILoginRepository, LoginRepository>();
 
 
 builder.Services.AddSwaggerGen(c =>
@@ -40,7 +42,7 @@ builder.Services.AddCors(options =>
 
 
 
-builder.Services.AddControllers();
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
@@ -59,13 +61,16 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+//builder.Services.AddHttpClient();
+
+
+app.UseCors("AllowAllOrigins");
 
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
-app.UseCors("AllowAllOrigins"); // 🔥 Quan trọng
-
 app.MapControllers();
+
 
 app.Run();

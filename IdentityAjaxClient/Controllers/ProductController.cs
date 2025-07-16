@@ -1,58 +1,64 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using System.Net.Http;
+using System.Text;
+using System.Text.Json;
+using System.Threading.Tasks;
+using BusinessObjects.Entities;
 
 namespace IdentityAjaxClient.Controllers
 {
-    [Authorize]
     [Route("[controller]/[action]")]
     public class ProductController : Controller
     {
-        /// <summary>
-        /// Trang danh sách sản phẩm, view sẽ gọi AJAX đến ProductManagementAPI để load data
-        /// </summary>
+        private readonly IHttpClientFactory _httpClientFactory;
+
+        public ProductController(IHttpClientFactory httpClientFactory)
+        {
+            _httpClientFactory = httpClientFactory;
+        }
+
         [HttpGet]
         public IActionResult Index()
         {
-            return View();
+            // Trả về view danh sách sản phẩm (bạn tự làm)
+            return View("~/Views/Home/Index.cshtml");
         }
 
-        /// <summary>
-        /// Trang xem chi tiết sản phẩm, view sẽ gọi AJAX đến API để lấy chi tiết
-        /// </summary>
-        [HttpGet("{id}")]
-        public IActionResult Details(int id)
-        {
-            ViewData["ProductId"] = id;
-            return View();
-        }
-
-        /// <summary>
-        /// Trang form tạo mới sản phẩm, view sẽ gửi AJAX POST đến API
-        /// </summary>
         [HttpGet]
-        public IActionResult Create()
+        public IActionResult CreateProduct()
         {
-            return View();
+            return View("~/Views/Home/CreateProduct.cshtml");
         }
 
-        /// <summary>
-        /// Trang form chỉnh sửa sản phẩm, view sẽ gọi AJAX GET để lấy dữ liệu và AJAX POST để cập nhật
-        /// </summary>
-        [HttpGet("{id}")]
-        public IActionResult Edit(int id)
+        [HttpPost]
+        public async Task<IActionResult> CreateProduct(Product product)
         {
-            ViewData["ProductId"] = id;
-            return View();
-        }
+            if (!ModelState.IsValid)
+            {
+                return View(product);
+            }
 
-        /// <summary>
-        /// Trang xác nhận xóa, view sẽ gửi AJAX DELETE đến API
-        /// </summary>
-        [HttpGet("{id}")]
-        public IActionResult Delete(int id)
-        {
-            ViewData["ProductId"] = id;
-            return View();
+            var client = _httpClientFactory.CreateClient();
+
+            // Chuẩn bị dữ liệu JSON gửi đến API
+            var json = JsonSerializer.Serialize(product);
+            var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+            // Gọi API để tạo product
+            var response = await client.PostAsync("https://localhost:5001/api/products", content);
+
+            if (response.IsSuccessStatusCode)
+            {
+                // Nếu tạo thành công, redirect về Index
+                return RedirectToAction("Index", "Home");
+
+            }
+            else
+            {
+                // Nếu lỗi thì hiện lại form với thông báo lỗi
+                ModelState.AddModelError(string.Empty, "Không tạo được sản phẩm, vui lòng thử lại.");
+                return View(product);
+            }
         }
     }
 }

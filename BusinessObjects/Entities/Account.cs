@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace BusinessObjects.Entities
 {
@@ -17,6 +18,7 @@ namespace BusinessObjects.Entities
         // Foreign key
         public int RoleId { get; set; }
         [ForeignKey("RoleId")]
-        public virtual Role Role { get; set; }
+        [JsonIgnore]
+        public virtual Role? Role { get; set; }
     }
 }

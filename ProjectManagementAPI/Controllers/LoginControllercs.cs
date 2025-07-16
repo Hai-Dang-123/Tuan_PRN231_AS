@@ -1,6 +1,7 @@
 ﻿using BusinessObjects.Entities;
 using DataAccess.DAO;
 using Microsoft.AspNetCore.Mvc;
+namespace IdentityAjaxClient.ApiControllers;
 
 [ApiController]
 [Route("api/[controller]")]
@@ -27,13 +28,16 @@ public class LoginController : ControllerBase
     [HttpPost("register")]
     public IActionResult Register([FromBody] Account account)
     {
+        if (!ModelState.IsValid)
+            return BadRequest(ModelState);  // Giúp debug dễ hơn
+
         if (_loginDAO.IsEmailExists(account.Email))
-        {
             return BadRequest("Email already exists.");
-        }
+
         _loginDAO.Register(account);
         return Ok("Account registered successfully.");
     }
+
 }
 
 public class LoginRequest

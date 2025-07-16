@@ -1,4 +1,6 @@
 using System.Diagnostics;
+using BusinessObjects.Entities;
+using System.Text.Json;
 using IdentityAjaxClient.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -13,10 +15,10 @@ namespace IdentityAjaxClient.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
-        {
-            return View();
-        }
+        //public IActionResult Index()
+        //{
+        //    return View();
+        //}
 
         public IActionResult Privacy()
         {
@@ -28,5 +30,20 @@ namespace IdentityAjaxClient.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        public async Task<IActionResult> Index()
+        {
+            var client = new HttpClient();
+            var response = await client.GetAsync("http://localhost:5071/api/products");
+            var json = await response.Content.ReadAsStringAsync();
+
+            var products = JsonSerializer.Deserialize<List<Product>>(json, new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            });
+
+            return View(products);
+        }
+
     }
 }
