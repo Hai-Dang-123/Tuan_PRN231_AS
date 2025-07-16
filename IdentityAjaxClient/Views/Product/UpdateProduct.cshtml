@@ -1,11 +1,14 @@
 ﻿@model BusinessObjects.Entities.Product
+
 @{
-    ViewData["Title"] = "Create Product";
+    ViewData["Title"] = "Update Product";
 }
 
-<h2>Create Product</h2>
+<h2>Update Product</h2>
 
-<form asp-action="CreateProduct" method="post">
+<form asp-action="UpdateProduct" method="post">
+    <input type="hidden" asp-for="ProductId" />
+
     <div class="form-group">
         <label asp-for="ProductName"></label>
         <input asp-for="ProductName" class="form-control" />
@@ -18,6 +21,6 @@
         <label asp-for="UnitPrice"></label>
         <input asp-for="UnitPrice" class="form-control" />
     </div>
-    <button type="submit" class="btn btn-success">Save</button>
+    <button type="submit" class="btn btn-primary">Update</button>
     <a href="/Home/Index" class="btn btn-secondary">Cancel</a>
 </form>

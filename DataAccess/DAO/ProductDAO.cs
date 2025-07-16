@@ -114,7 +114,7 @@ namespace DataAccess.DAO
         public List<Product> GetProducts()
         {
             return _context.Products
-                           .Include(p => p.Category)
+                           //.Include(p => p.Category)
                            .ToList();
         }
 

@@ -7,7 +7,7 @@
 namespace BusinessObjects.Migrations
 {
     /// <inheritdoc />
-    public partial class abc : Migration
+    public partial class a : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

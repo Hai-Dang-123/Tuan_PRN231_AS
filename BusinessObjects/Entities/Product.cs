@@ -21,6 +21,6 @@ namespace BusinessObjects.Entities
         public int UnitPrice { get; set; }
         [Required]
         public int UnitsInStock { get; set; }
-        public virtual Category? Category { get; set; }
+        //public virtual Category? Category { get; set; }
     }
 }

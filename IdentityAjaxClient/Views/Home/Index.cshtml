@@ -4,7 +4,6 @@
     ViewData["Title"] = "Home Page";
 }
 
-<!-- ✅ THÊM jQuery ở đây -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 <div class="container-fluid">
@@ -21,15 +20,13 @@
             </tr>
         </thead>
         <tbody>
-            <!-- Rows sẽ được populate bởi JavaScript -->
+            <!-- Data rows will be appended by jQuery -->
         </tbody>
     </table>
 
     <div class="mb-3">
         <a asp-controller="Product" asp-action="CreateProduct" class="btn btn-primary">➕ Create Product</a>
-
     </div>
-
 </div>
 
 <script type="text/javascript">
@@ -38,25 +35,26 @@
 
         function ShowAllProducts() {
             $("table tbody").html("");
+
             $.ajax({
-              url: "http://localhost:5071/api/Products", // ✅ đúng, API đang chạy ở HTTP
+                url: "http://localhost:5071/api/Products",
                 type: "GET",
                 dataType: "json",
                 contentType: "application/json; charset=utf-8",
-                success: function (result, status, xhr) {
+                success: function (result) {
                     $.each(result, function (index, value) {
-                        $("table tbody").append($("<tr>"));
-                        var appendElement = $("table tbody tr").last();
-                        appendElement.append($("<td>").html(value["productId"]));
-                        appendElement.append($("<td>").html(value["productName"]));
-                       appendElement.append($("<td>").html(value["unitsInStock"]));
-                        appendElement.append($("<td>").html(value["unitPrice"]));
-                        appendElement.append($("<td>").html(
-                            "<a href=\"?id=" + value["productId"] + "\"><img src=\"icon/edit.png\" /></a>"
-                        ));
-                        appendElement.append($("<td>").html(
-                            "<img class=\"delete\" src=\"icon/close.png\" />"
-                        ));
+                        let row = "<tr>";
+                        row += "<td>" + value.productId + "</td>";
+                        row += "<td>" + value.productName + "</td>";
+                        row += "<td>" + value.unitsInStock + "</td>";
+                        row += "<td>" + value.unitPrice + "</td>";
+                      row += "<td><a href='/Product/UpdateProduct/" + value.productId + "'><img src='/icon/edit.png' /></a></td>";
+
+
+                        row += "<td><img class='delete' src='/icon/close.png' style='cursor:pointer;' /></td>";
+                        row += "</tr>";
+
+                        $("table tbody").append(row);
                     });
                 },
                 error: function (xhr, status, error) {
@@ -67,12 +65,13 @@
 
         $("table").on("click", "img.delete", function () {
             var productId = $(this).closest("tr").find("td:first").text();
+
             if (confirm("Are you sure you want to delete this product?")) {
                 $.ajax({
-                   url: "http://localhost:5071/api/Products/" + productId,
+                    url: "http://localhost:5071/api/Products/" + productId,
                     type: "DELETE",
                     contentType: "application/json",
-                    success: function (result, status, xhr) {
+                    success: function () {
                         alert("Product deleted successfully.");
                         ShowAllProducts();
                     },

@@ -1,149 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\",
+  "WorkspaceRootPath": "D:\\PRN231(Project-K\u1EF3 8)\\ASS\\Hoang_PRN231_AS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D69C631-75FC-46E8-86CF-9F95FB5F406F}|IdentityAjaxClient\\IdentityAjaxClient.csproj|d:\\bai tap tren lop prn\\tuan_prn231_as\\identityajaxclient\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3D69C631-75FC-46E8-86CF-9F95FB5F406F}|IdentityAjaxClient\\IdentityAjaxClient.csproj|solutionrelative:identityajaxclient\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D69C631-75FC-46E8-86CF-9F95FB5F406F}|IdentityAjaxClient\\IdentityAjaxClient.csproj|d:\\bai tap tren lop prn\\tuan_prn231_as\\identityajaxclient\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D69C631-75FC-46E8-86CF-9F95FB5F406F}|IdentityAjaxClient\\IdentityAjaxClient.csproj|solutionrelative:identityajaxclient\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D69C631-75FC-46E8-86CF-9F95FB5F406F}|IdentityAjaxClient\\IdentityAjaxClient.csproj|d:\\bai tap tren lop prn\\tuan_prn231_as\\identityajaxclient\\views\\home\\createproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3D69C631-75FC-46E8-86CF-9F95FB5F406F}|IdentityAjaxClient\\IdentityAjaxClient.csproj|solutionrelative:identityajaxclient\\views\\home\\createproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D69C631-75FC-46E8-86CF-9F95FB5F406F}|IdentityAjaxClient\\IdentityAjaxClient.csproj|d:\\bai tap tren lop prn\\tuan_prn231_as\\identityajaxclient\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D69C631-75FC-46E8-86CF-9F95FB5F406F}|IdentityAjaxClient\\IdentityAjaxClient.csproj|d:\\prn231(project-k\u1EF3 8)\\ass\\hoang_prn231_as\\identityajaxclient\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D69C631-75FC-46E8-86CF-9F95FB5F406F}|IdentityAjaxClient\\IdentityAjaxClient.csproj|solutionrelative:identityajaxclient\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D69C631-75FC-46E8-86CF-9F95FB5F406F}|IdentityAjaxClient\\IdentityAjaxClient.csproj|d:\\bai tap tren lop prn\\tuan_prn231_as\\identityajaxclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D69C631-75FC-46E8-86CF-9F95FB5F406F}|IdentityAjaxClient\\IdentityAjaxClient.csproj|d:\\prn231(project-k\u1EF3 8)\\ass\\hoang_prn231_as\\identityajaxclient\\views\\product\\updateproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D69C631-75FC-46E8-86CF-9F95FB5F406F}|IdentityAjaxClient\\IdentityAjaxClient.csproj|solutionrelative:identityajaxclient\\views\\product\\updateproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D69C631-75FC-46E8-86CF-9F95FB5F406F}|IdentityAjaxClient\\IdentityAjaxClient.csproj|d:\\prn231(project-k\u1EF3 8)\\ass\\hoang_prn231_as\\identityajaxclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D69C631-75FC-46E8-86CF-9F95FB5F406F}|IdentityAjaxClient\\IdentityAjaxClient.csproj|solutionrelative:identityajaxclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{238F539C-62F7-4507-98E5-A202D7D3B48E}|ProjectManagementAPI\\ProjectManagementAPI.csproj|d:\\bai tap tren lop prn\\tuan_prn231_as\\projectmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{238F539C-62F7-4507-98E5-A202D7D3B48E}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D69C631-75FC-46E8-86CF-9F95FB5F406F}|IdentityAjaxClient\\IdentityAjaxClient.csproj|d:\\prn231(project-k\u1EF3 8)\\ass\\hoang_prn231_as\\identityajaxclient\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D69C631-75FC-46E8-86CF-9F95FB5F406F}|IdentityAjaxClient\\IdentityAjaxClient.csproj|solutionrelative:identityajaxclient\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{238F539C-62F7-4507-98E5-A202D7D3B48E}|ProjectManagementAPI\\ProjectManagementAPI.csproj|d:\\bai tap tren lop prn\\tuan_prn231_as\\projectmanagementapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{238F539C-62F7-4507-98E5-A202D7D3B48E}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{238F539C-62F7-4507-98E5-A202D7D3B48E}|ProjectManagementAPI\\ProjectManagementAPI.csproj|d:\\bai tap tren lop prn\\tuan_prn231_as\\projectmanagementapi\\controllers\\logincontrollercs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{238F539C-62F7-4507-98E5-A202D7D3B48E}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\controllers\\logincontrollercs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D69C631-75FC-46E8-86CF-9F95FB5F406F}|IdentityAjaxClient\\IdentityAjaxClient.csproj|d:\\bai tap tren lop prn\\tuan_prn231_as\\identityajaxclient\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3D69C631-75FC-46E8-86CF-9F95FB5F406F}|IdentityAjaxClient\\IdentityAjaxClient.csproj|solutionrelative:identityajaxclient\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D69C631-75FC-46E8-86CF-9F95FB5F406F}|IdentityAjaxClient\\IdentityAjaxClient.csproj|d:\\bai tap tren lop prn\\tuan_prn231_as\\identityajaxclient\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3D69C631-75FC-46E8-86CF-9F95FB5F406F}|IdentityAjaxClient\\IdentityAjaxClient.csproj|solutionrelative:identityajaxclient\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D69C631-75FC-46E8-86CF-9F95FB5F406F}|IdentityAjaxClient\\IdentityAjaxClient.csproj|d:\\bai tap tren lop prn\\tuan_prn231_as\\identityajaxclient\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D69C631-75FC-46E8-86CF-9F95FB5F406F}|IdentityAjaxClient\\IdentityAjaxClient.csproj|solutionrelative:identityajaxclient\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{483CC343-FEDF-45EC-A2BF-1CC5F27334D1}|DataAccess\\DataAccess.csproj|d:\\bai tap tren lop prn\\tuan_prn231_as\\dataaccess\\dao\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{483CC343-FEDF-45EC-A2BF-1CC5F27334D1}|DataAccess\\DataAccess.csproj|d:\\prn231(project-k\u1EF3 8)\\ass\\hoang_prn231_as\\dataaccess\\dao\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{483CC343-FEDF-45EC-A2BF-1CC5F27334D1}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\dao\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FB7F192-BC40-434E-834A-98B13EEC5074}|Repositories\\Repositories.csproj|d:\\bai tap tren lop prn\\tuan_prn231_as\\repositories\\repositories\\implement\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FB7F192-BC40-434E-834A-98B13EEC5074}|Repositories\\Repositories.csproj|solutionrelative:repositories\\repositories\\implement\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D69C631-75FC-46E8-86CF-9F95FB5F406F}|IdentityAjaxClient\\IdentityAjaxClient.csproj|d:\\bai tap tren lop prn\\tuan_prn231_as\\identityajaxclient\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3D69C631-75FC-46E8-86CF-9F95FB5F406F}|IdentityAjaxClient\\IdentityAjaxClient.csproj|solutionrelative:identityajaxclient\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D69C631-75FC-46E8-86CF-9F95FB5F406F}|IdentityAjaxClient\\IdentityAjaxClient.csproj|d:\\bai tap tren lop prn\\tuan_prn231_as\\identityajaxclient\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3D69C631-75FC-46E8-86CF-9F95FB5F406F}|IdentityAjaxClient\\IdentityAjaxClient.csproj|solutionrelative:identityajaxclient\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D69C631-75FC-46E8-86CF-9F95FB5F406F}|IdentityAjaxClient\\IdentityAjaxClient.csproj|d:\\bai tap tren lop prn\\tuan_prn231_as\\identityajaxclient\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3D69C631-75FC-46E8-86CF-9F95FB5F406F}|IdentityAjaxClient\\IdentityAjaxClient.csproj|solutionrelative:identityajaxclient\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D69C631-75FC-46E8-86CF-9F95FB5F406F}|IdentityAjaxClient\\IdentityAjaxClient.csproj|d:\\bai tap tren lop prn\\tuan_prn231_as\\identityajaxclient\\views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3D69C631-75FC-46E8-86CF-9F95FB5F406F}|IdentityAjaxClient\\IdentityAjaxClient.csproj|solutionrelative:identityajaxclient\\views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00B4B3CA-E811-4C90-9AF5-7D6EED9748D4}|BusinessObjects\\BusinessObjects.csproj|d:\\bai tap tren lop prn\\tuan_prn231_as\\businessobjects\\entities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00B4B3CA-E811-4C90-9AF5-7D6EED9748D4}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\entities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{483CC343-FEDF-45EC-A2BF-1CC5F27334D1}|DataAccess\\DataAccess.csproj|d:\\bai tap tren lop prn\\tuan_prn231_as\\dataaccess\\dao\\logindao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{483CC343-FEDF-45EC-A2BF-1CC5F27334D1}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\dao\\logindao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FB7F192-BC40-434E-834A-98B13EEC5074}|Repositories\\Repositories.csproj|d:\\bai tap tren lop prn\\tuan_prn231_as\\repositories\\repositories\\implement\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FB7F192-BC40-434E-834A-98B13EEC5074}|Repositories\\Repositories.csproj|solutionrelative:repositories\\repositories\\implement\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00B4B3CA-E811-4C90-9AF5-7D6EED9748D4}|BusinessObjects\\BusinessObjects.csproj|d:\\bai tap tren lop prn\\tuan_prn231_as\\businessobjects\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00B4B3CA-E811-4C90-9AF5-7D6EED9748D4}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{483CC343-FEDF-45EC-A2BF-1CC5F27334D1}|DataAccess\\DataAccess.csproj|d:\\bai tap tren lop prn\\tuan_prn231_as\\dataaccess\\dao\\categorydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{483CC343-FEDF-45EC-A2BF-1CC5F27334D1}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\dao\\categorydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00B4B3CA-E811-4C90-9AF5-7D6EED9748D4}|BusinessObjects\\BusinessObjects.csproj|d:\\bai tap tren lop prn\\tuan_prn231_as\\businessobjects\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{00B4B3CA-E811-4C90-9AF5-7D6EED9748D4}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D69C631-75FC-46E8-86CF-9F95FB5F406F}|IdentityAjaxClient\\IdentityAjaxClient.csproj|d:\\bai tap tren lop prn\\tuan_prn231_as\\identityajaxclient\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3D69C631-75FC-46E8-86CF-9F95FB5F406F}|IdentityAjaxClient\\IdentityAjaxClient.csproj|solutionrelative:identityajaxclient\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FB7F192-BC40-434E-834A-98B13EEC5074}|Repositories\\Repositories.csproj|d:\\bai tap tren lop prn\\tuan_prn231_as\\repositories\\repositories\\interface\\iloginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FB7F192-BC40-434E-834A-98B13EEC5074}|Repositories\\Repositories.csproj|solutionrelative:repositories\\repositories\\interface\\iloginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00B4B3CA-E811-4C90-9AF5-7D6EED9748D4}|BusinessObjects\\BusinessObjects.csproj|d:\\bai tap tren lop prn\\tuan_prn231_as\\businessobjects\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00B4B3CA-E811-4C90-9AF5-7D6EED9748D4}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{238F539C-62F7-4507-98E5-A202D7D3B48E}|ProjectManagementAPI\\ProjectManagementAPI.csproj|d:\\bai tap tren lop prn\\tuan_prn231_as\\projectmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{238F539C-62F7-4507-98E5-A202D7D3B48E}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00B4B3CA-E811-4C90-9AF5-7D6EED9748D4}|BusinessObjects\\BusinessObjects.csproj|d:\\bai tap tren lop prn\\tuan_prn231_as\\businessobjects\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B4B3CA-E811-4C90-9AF5-7D6EED9748D4}|BusinessObjects\\BusinessObjects.csproj|d:\\prn231(project-k\u1EF3 8)\\ass\\hoang_prn231_as\\businessobjects\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B4B3CA-E811-4C90-9AF5-7D6EED9748D4}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Prn bai tap tren lop\\Tuan_PRN231_AS\\BusinessObjects\\Migrations\\20250714182803_abc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Prn bai tap tren lop\\Tuan_PRN231_AS\\BusinessObjects\\Migrations\\20250714182530_abc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Prn bai tap tren lop\\Tuan_PRN231_AS\\BusinessObjects\\Migrations\\20250714181720_aaa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D69C631-75FC-46E8-86CF-9F95FB5F406F}|IdentityAjaxClient\\IdentityAjaxClient.csproj|d:\\bai tap tren lop prn\\tuan_prn231_as\\identityajaxclient\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3D69C631-75FC-46E8-86CF-9F95FB5F406F}|IdentityAjaxClient\\IdentityAjaxClient.csproj|solutionrelative:identityajaxclient\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00B4B3CA-E811-4C90-9AF5-7D6EED9748D4}|BusinessObjects\\BusinessObjects.csproj|d:\\bai tap tren lop prn\\tuan_prn231_as\\businessobjects\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00B4B3CA-E811-4C90-9AF5-7D6EED9748D4}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Prn bai tap tren lop\\Tuan_PRN231_AS\\BusinessObjects\\Migrations\\20250714092715_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00B4B3CA-E811-4C90-9AF5-7D6EED9748D4}|BusinessObjects\\BusinessObjects.csproj|d:\\bai tap tren lop prn\\tuan_prn231_as\\businessobjects\\businessobjects.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{00B4B3CA-E811-4C90-9AF5-7D6EED9748D4}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\businessobjects.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00B4B3CA-E811-4C90-9AF5-7D6EED9748D4}|BusinessObjects\\BusinessObjects.csproj|d:\\bai tap tren lop prn\\tuan_prn231_as\\businessobjects\\migrations\\20250715055414_abc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00B4B3CA-E811-4C90-9AF5-7D6EED9748D4}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\migrations\\20250715055414_abc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{238F539C-62F7-4507-98E5-A202D7D3B48E}|ProjectManagementAPI\\ProjectManagementAPI.csproj|d:\\prn231(project-k\u1EF3 8)\\ass\\hoang_prn231_as\\projectmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{238F539C-62F7-4507-98E5-A202D7D3B48E}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -153,454 +38,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 24,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreateProduct.cshtml",
-              "DocumentMoniker": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\IdentityAjaxClient\\Views\\Home\\CreateProduct.cshtml",
-              "RelativeDocumentMoniker": "IdentityAjaxClient\\Views\\Home\\CreateProduct.cshtml",
-              "ToolTip": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\IdentityAjaxClient\\Views\\Home\\CreateProduct.cshtml",
-              "RelativeToolTip": "IdentityAjaxClient\\Views\\Home\\CreateProduct.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-16T10:17:16.864Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\IdentityAjaxClient\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "IdentityAjaxClient\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\IdentityAjaxClient\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "IdentityAjaxClient\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-16T10:03:09.338Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\IdentityAjaxClient\\Views\\Login\\Register.cshtml",
-              "RelativeDocumentMoniker": "IdentityAjaxClient\\Views\\Login\\Register.cshtml",
-              "ToolTip": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\IdentityAjaxClient\\Views\\Login\\Register.cshtml",
-              "RelativeToolTip": "IdentityAjaxClient\\Views\\Login\\Register.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-16T09:48:06.537Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\IdentityAjaxClient\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "IdentityAjaxClient\\Controllers\\LoginController.cs",
-              "ToolTip": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\IdentityAjaxClient\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "IdentityAjaxClient\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T06:10:46.098Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LoginControllercs.cs",
-              "DocumentMoniker": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\ProjectManagementAPI\\Controllers\\LoginControllercs.cs",
-              "RelativeDocumentMoniker": "ProjectManagementAPI\\Controllers\\LoginControllercs.cs",
-              "ToolTip": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\ProjectManagementAPI\\Controllers\\LoginControllercs.cs",
-              "RelativeToolTip": "ProjectManagementAPI\\Controllers\\LoginControllercs.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA7wC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T06:10:16.878Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ILoginRepository.cs",
-              "DocumentMoniker": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\Repositories\\Repositories\\Interface\\ILoginRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Repositories\\Interface\\ILoginRepository.cs",
-              "ToolTip": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\Repositories\\Repositories\\Interface\\ILoginRepository.cs",
-              "RelativeToolTip": "Repositories\\Repositories\\Interface\\ILoginRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T06:09:56.647Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "LoginRepository.cs",
-              "DocumentMoniker": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\Repositories\\Repositories\\Implement\\LoginRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Repositories\\Implement\\LoginRepository.cs",
-              "ToolTip": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\Repositories\\Repositories\\Implement\\LoginRepository.cs",
-              "RelativeToolTip": "Repositories\\Repositories\\Implement\\LoginRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T06:09:38.956Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "LoginDAO.cs",
-              "DocumentMoniker": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\DataAccess\\DAO\\LoginDAO.cs",
-              "RelativeDocumentMoniker": "DataAccess\\DAO\\LoginDAO.cs",
-              "ToolTip": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\DataAccess\\DAO\\LoginDAO.cs",
-              "RelativeToolTip": "DataAccess\\DAO\\LoginDAO.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAmwDAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T06:05:14.456Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\IdentityAjaxClient\\Views\\Login\\Login.cshtml",
-              "RelativeDocumentMoniker": "IdentityAjaxClient\\Views\\Login\\Login.cshtml",
-              "ToolTip": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\IdentityAjaxClient\\Views\\Login\\Login.cshtml",
-              "RelativeToolTip": "IdentityAjaxClient\\Views\\Login\\Login.cshtml",
-              "ViewState": "AgIAABkAAAAAAAAAAAAcwEAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-15T06:04:35.81Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "20250715055414_abc.cs",
-              "DocumentMoniker": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\BusinessObjects\\Migrations\\20250715055414_abc.cs",
-              "RelativeDocumentMoniker": "BusinessObjects\\Migrations\\20250715055414_abc.cs",
-              "ToolTip": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\BusinessObjects\\Migrations\\20250715055414_abc.cs",
-              "RelativeToolTip": "BusinessObjects\\Migrations\\20250715055414_abc.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T05:54:14.289Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "20250714182803_abc.cs",
-              "DocumentMoniker": "D:\\Prn bai tap tren lop\\Tuan_PRN231_AS\\BusinessObjects\\Migrations\\20250714182803_abc.cs",
-              "RelativeDocumentMoniker": "..\\..\\Prn bai tap tren lop\\Tuan_PRN231_AS\\BusinessObjects\\Migrations\\20250714182803_abc.cs",
-              "ToolTip": "D:\\Prn bai tap tren lop\\Tuan_PRN231_AS\\BusinessObjects\\Migrations\\20250714182803_abc.cs",
-              "RelativeToolTip": "..\\..\\Prn bai tap tren lop\\Tuan_PRN231_AS\\BusinessObjects\\Migrations\\20250714182803_abc.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T18:28:03.392Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "20250714182530_abc.cs",
-              "DocumentMoniker": "D:\\Prn bai tap tren lop\\Tuan_PRN231_AS\\BusinessObjects\\Migrations\\20250714182530_abc.cs",
-              "RelativeDocumentMoniker": "..\\..\\Prn bai tap tren lop\\Tuan_PRN231_AS\\BusinessObjects\\Migrations\\20250714182530_abc.cs",
-              "ToolTip": "D:\\Prn bai tap tren lop\\Tuan_PRN231_AS\\BusinessObjects\\Migrations\\20250714182530_abc.cs",
-              "RelativeToolTip": "..\\..\\Prn bai tap tren lop\\Tuan_PRN231_AS\\BusinessObjects\\Migrations\\20250714182530_abc.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T18:25:31.169Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Account.cs",
-              "DocumentMoniker": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\BusinessObjects\\Entities\\Account.cs",
-              "RelativeDocumentMoniker": "BusinessObjects\\Entities\\Account.cs",
-              "ToolTip": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\BusinessObjects\\Entities\\Account.cs",
-              "RelativeToolTip": "BusinessObjects\\Entities\\Account.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAYwBUAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T18:23:51.845Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Role.cs",
-              "DocumentMoniker": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\BusinessObjects\\Entities\\Role.cs",
-              "RelativeDocumentMoniker": "BusinessObjects\\Entities\\Role.cs",
-              "ToolTip": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\BusinessObjects\\Entities\\Role.cs",
-              "RelativeToolTip": "BusinessObjects\\Entities\\Role.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T18:23:25.352Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "20250714181720_aaa.cs",
-              "DocumentMoniker": "D:\\Prn bai tap tren lop\\Tuan_PRN231_AS\\BusinessObjects\\Migrations\\20250714181720_aaa.cs",
-              "RelativeDocumentMoniker": "..\\..\\Prn bai tap tren lop\\Tuan_PRN231_AS\\BusinessObjects\\Migrations\\20250714181720_aaa.cs",
-              "ToolTip": "D:\\Prn bai tap tren lop\\Tuan_PRN231_AS\\BusinessObjects\\Migrations\\20250714181720_aaa.cs",
-              "RelativeToolTip": "..\\..\\Prn bai tap tren lop\\Tuan_PRN231_AS\\BusinessObjects\\Migrations\\20250714181720_aaa.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T18:17:20.408Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\IdentityAjaxClient\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "IdentityAjaxClient\\Views\\_ViewStart.cshtml",
-              "ToolTip": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\IdentityAjaxClient\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "IdentityAjaxClient\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-14T18:07:31.59Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\IdentityAjaxClient\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "IdentityAjaxClient\\Views\\_ViewImports.cshtml",
-              "ToolTip": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\IdentityAjaxClient\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "IdentityAjaxClient\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-14T18:07:30.629Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\ProjectManagementAPI\\Program.cs",
-              "RelativeDocumentMoniker": "ProjectManagementAPI\\Program.cs",
-              "ToolTip": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\ProjectManagementAPI\\Program.cs",
-              "RelativeToolTip": "ProjectManagementAPI\\Program.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAuwD8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T08:29:11.209Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\BusinessObjects\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "BusinessObjects\\Entities\\Product.cs",
-              "ToolTip": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\BusinessObjects\\Entities\\Product.cs",
-              "RelativeToolTip": "BusinessObjects\\Entities\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T08:32:07.24Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "MyDbContext.cs",
-              "DocumentMoniker": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\BusinessObjects\\Data\\MyDbContext.cs",
-              "RelativeDocumentMoniker": "BusinessObjects\\Data\\MyDbContext.cs",
-              "ToolTip": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\BusinessObjects\\Data\\MyDbContext.cs",
-              "RelativeToolTip": "BusinessObjects\\Data\\MyDbContext.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAqwDQAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T09:32:31.355Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\ProjectManagementAPI\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "ProjectManagementAPI\\Controllers\\ProductsController.cs",
-              "ToolTip": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\ProjectManagementAPI\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "ProjectManagementAPI\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAywDUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T16:40:44.988Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\Repositories\\Repositories\\Implement\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Repositories\\Implement\\ProductRepository.cs",
-              "ToolTip": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\Repositories\\Repositories\\Implement\\ProductRepository.cs",
-              "RelativeToolTip": "Repositories\\Repositories\\Implement\\ProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T16:47:53.268Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\BusinessObjects\\Entities\\Category.cs",
-              "RelativeDocumentMoniker": "BusinessObjects\\Entities\\Category.cs",
-              "ToolTip": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\BusinessObjects\\Entities\\Category.cs",
-              "RelativeToolTip": "BusinessObjects\\Entities\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T08:32:06.642Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ProductDAO.cs",
-              "DocumentMoniker": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\DataAccess\\DAO\\ProductDAO.cs",
-              "RelativeDocumentMoniker": "DataAccess\\DAO\\ProductDAO.cs",
-              "ToolTip": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\DataAccess\\DAO\\ProductDAO.cs",
-              "RelativeToolTip": "DataAccess\\DAO\\ProductDAO.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAAA/wI8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T09:51:37.248Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\IdentityAjaxClient\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "IdentityAjaxClient\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\IdentityAjaxClient\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "IdentityAjaxClient\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-14T16:17:08.136Z",
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\PRN231(Project-K\u1EF3 8)\\ASS\\Hoang_PRN231_AS\\IdentityAjaxClient\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "IdentityAjaxClient\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\PRN231(Project-K\u1EF3 8)\\ASS\\Hoang_PRN231_AS\\IdentityAjaxClient\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "IdentityAjaxClient\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T13:54:17.237Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\IdentityAjaxClient\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "IdentityAjaxClient\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\IdentityAjaxClient\\Properties\\launchSettings.json",
-              "RelativeToolTip": "IdentityAjaxClient\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-14T15:22:20.596Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\IdentityAjaxClient\\Program.cs",
+              "DocumentMoniker": "D:\\PRN231(Project-K\u1EF3 8)\\ASS\\Hoang_PRN231_AS\\IdentityAjaxClient\\Program.cs",
               "RelativeDocumentMoniker": "IdentityAjaxClient\\Program.cs",
-              "ToolTip": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\IdentityAjaxClient\\Program.cs",
+              "ToolTip": "D:\\PRN231(Project-K\u1EF3 8)\\ASS\\Hoang_PRN231_AS\\IdentityAjaxClient\\Program.cs",
               "RelativeToolTip": "IdentityAjaxClient\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-14T16:15:03.278Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\BusinessObjects\\appsettings.json",
-              "RelativeDocumentMoniker": "BusinessObjects\\appsettings.json",
-              "ToolTip": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\BusinessObjects\\appsettings.json",
-              "RelativeToolTip": "BusinessObjects\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-14T08:39:57.473Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "20250714092715_InitialCreate.cs",
-              "DocumentMoniker": "D:\\Prn bai tap tren lop\\Tuan_PRN231_AS\\BusinessObjects\\Migrations\\20250714092715_InitialCreate.cs",
-              "RelativeDocumentMoniker": "..\\..\\Prn bai tap tren lop\\Tuan_PRN231_AS\\BusinessObjects\\Migrations\\20250714092715_InitialCreate.cs",
-              "ToolTip": "D:\\Prn bai tap tren lop\\Tuan_PRN231_AS\\BusinessObjects\\Migrations\\20250714092715_InitialCreate.cs",
-              "RelativeToolTip": "..\\..\\Prn bai tap tren lop\\Tuan_PRN231_AS\\BusinessObjects\\Migrations\\20250714092715_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T09:27:15.577Z"
+              "DocumentIndex": 1,
+              "Title": "UpdateProduct.cshtml",
+              "DocumentMoniker": "D:\\PRN231(Project-K\u1EF3 8)\\ASS\\Hoang_PRN231_AS\\IdentityAjaxClient\\Views\\Product\\UpdateProduct.cshtml",
+              "RelativeDocumentMoniker": "IdentityAjaxClient\\Views\\Product\\UpdateProduct.cshtml",
+              "ToolTip": "D:\\PRN231(Project-K\u1EF3 8)\\ASS\\Hoang_PRN231_AS\\IdentityAjaxClient\\Views\\Product\\UpdateProduct.cshtml",
+              "RelativeToolTip": "IdentityAjaxClient\\Views\\Product\\UpdateProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T13:55:55.912Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\IdentityAjaxClient\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "IdentityAjaxClient\\Controllers\\ProductController.cs",
-              "ToolTip": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\IdentityAjaxClient\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "IdentityAjaxClient\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAUwEAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T16:39:15.361Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\PRN231(Project-K\u1EF3 8)\\ASS\\Hoang_PRN231_AS\\IdentityAjaxClient\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "IdentityAjaxClient\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\PRN231(Project-K\u1EF3 8)\\ASS\\Hoang_PRN231_AS\\IdentityAjaxClient\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "IdentityAjaxClient\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAYwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T13:58:17.572Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\IdentityAjaxClient\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "IdentityAjaxClient\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\IdentityAjaxClient\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "IdentityAjaxClient\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAADwvzEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ProductDAO.cs",
+              "DocumentMoniker": "D:\\PRN231(Project-K\u1EF3 8)\\ASS\\Hoang_PRN231_AS\\DataAccess\\DAO\\ProductDAO.cs",
+              "RelativeDocumentMoniker": "DataAccess\\DAO\\ProductDAO.cs",
+              "ToolTip": "D:\\PRN231(Project-K\u1EF3 8)\\ASS\\Hoang_PRN231_AS\\DataAccess\\DAO\\ProductDAO.cs",
+              "RelativeToolTip": "DataAccess\\DAO\\ProductDAO.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAhwHQAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T16:44:04.37Z",
+              "WhenOpened": "2025-07-16T14:04:26.704Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\PRN231(Project-K\u1EF3 8)\\ASS\\Hoang_PRN231_AS\\BusinessObjects\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Entities\\Product.cs",
+              "ToolTip": "D:\\PRN231(Project-K\u1EF3 8)\\ASS\\Hoang_PRN231_AS\\BusinessObjects\\Entities\\Product.cs",
+              "RelativeToolTip": "BusinessObjects\\Entities\\Product.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAUwBcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T14:03:30.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AgIAAOEUAAAAAAAAAAAiwPMUAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-07-14T16:58:04.111Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\IdentityAjaxClient\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "IdentityAjaxClient\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\IdentityAjaxClient\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "IdentityAjaxClient\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-14T16:17:15.564Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\ProjectManagementAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "ProjectManagementAPI\\appsettings.json",
-              "ToolTip": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\ProjectManagementAPI\\appsettings.json",
-              "RelativeToolTip": "ProjectManagementAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-14T08:29:12.677Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "CategoryDAO.cs",
-              "DocumentMoniker": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\DataAccess\\DAO\\CategoryDAO.cs",
-              "RelativeDocumentMoniker": "DataAccess\\DAO\\CategoryDAO.cs",
-              "ToolTip": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\DataAccess\\DAO\\CategoryDAO.cs",
-              "RelativeToolTip": "DataAccess\\DAO\\CategoryDAO.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAA3AAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PRN231(Project-K\u1EF3 8)\\ASS\\Hoang_PRN231_AS\\ProjectManagementAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Program.cs",
+              "ToolTip": "D:\\PRN231(Project-K\u1EF3 8)\\ASS\\Hoang_PRN231_AS\\ProjectManagementAPI\\Program.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T09:41:49.03Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\IdentityAjaxClient\\appsettings.json",
-              "RelativeDocumentMoniker": "IdentityAjaxClient\\appsettings.json",
-              "ToolTip": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\IdentityAjaxClient\\appsettings.json",
-              "RelativeToolTip": "IdentityAjaxClient\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-14T08:39:23.843Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "BusinessObjects.csproj",
-              "DocumentMoniker": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\BusinessObjects\\BusinessObjects.csproj",
-              "RelativeDocumentMoniker": "BusinessObjects\\BusinessObjects.csproj",
-              "ToolTip": "D:\\bai tap tren lop prn\\Tuan_PRN231_AS\\BusinessObjects\\BusinessObjects.csproj",
-              "RelativeToolTip": "BusinessObjects\\BusinessObjects.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-14T09:26:50.735Z"
+              "WhenOpened": "2025-07-14T08:29:11.209Z",
+              "EditorCaption": ""
             }
           ]
         }
